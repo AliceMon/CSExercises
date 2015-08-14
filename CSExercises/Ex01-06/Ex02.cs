@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hi! Please type integer, I will show your square of that number, Quickly");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Your result is " + num * num);
         }
     }
 }

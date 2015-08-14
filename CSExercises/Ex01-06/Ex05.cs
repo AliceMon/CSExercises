@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hi! Please type double, I will show your square of that number, Quickly");
+            double num = double.Parse(Console.ReadLine());
+            num = Math.Sqrt(num);
+            Console.WriteLine("Your result is {0:#.###}", num);
         }
     }
 }
