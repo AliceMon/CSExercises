@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            float x, y;
+            Console.Write("Enter the value of x: ");
+            x = float.Parse(Console.ReadLine());
+            y = 2 * x * x - (4 * x) + 3;
+            Console.WriteLine("The value of y: " + y);
         }
     }
 }
