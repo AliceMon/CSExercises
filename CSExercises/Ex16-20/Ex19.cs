@@ -22,7 +22,7 @@ namespace CSExercises
             }
             else if (distance > 5)
             {
-                totalcharge = 2.4 + (distance * 0.04);
+                totalcharge = 2.4 + ((distance - 5) * 0.04);
             }
             else
             {
