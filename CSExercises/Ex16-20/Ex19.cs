@@ -20,11 +20,15 @@ namespace CSExercises
                 dist = distance - 90;
                 totalcharge = 2.4 + (85 * 0.04) + (dist * 0.05);
             }
+            else if (distance > 5)
+            {
+                totalcharge = 2.4 + (distance * 0.04);
+            }
             else
             {
-                totalcharge = 2.4 + (85 * 0.04);
+                totalcharge = 2.4;
             }
-            System.Console.WriteLine("Total charge: " + totalcharge);
+            System.Console.WriteLine("Total charge: " + totalcharge );
         }
     }
 }
